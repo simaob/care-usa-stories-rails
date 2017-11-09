@@ -1,0 +1,31 @@
+<article class="article-item box">
+  <a class="holder" href="#">
+    <figure class="article-content">
+      <div class="article-layer">
+        <% picture = story.respond_to?(:pictures) && story.pictures.try(:first) %>
+        <% if picture && picture.file && picture.file.respond_to?(:url) %>
+          <%= image_tag picture.file.url %>
+        <% end %>
+        <p>
+          <%= link_to "/stories/#{story.id}" do %>
+            <button class="btn" type="button">GO TO STORY</button>
+          <% end %>
+        </p>
+      </div>
+      <figcaption>
+        <div class="article-data">
+          <p class="cat">
+          <span>
+            <%= story.sectors.map{|s| s.try(:name)}.compact.join(", ") %>
+          </span>
+          </p>
+          <span class="country">
+            <%= story.countries.map{|s| s.try(:name)}.compact.join(", ") %>
+          </span>
+        </div>
+        <h4><%= story.title %></h4>
+        <p><%= story.summary %></p>
+      </figcaption>
+    </figure>
+  </a>
+</article>
