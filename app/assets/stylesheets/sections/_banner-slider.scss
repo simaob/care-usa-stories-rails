@@ -35,7 +35,7 @@
         background-color: transparent;
         background-position: -11px 0;
         border-radius: 50%;
-        cursor: url('#{$path-images}helpers/pointer.png'), pointer;        vertical-align: middle;
+        cursor: asset-url('helpers/pointer.png'), pointer;        vertical-align: middle;
         outline: none;
         &:active {
           background-position: -11px 0;

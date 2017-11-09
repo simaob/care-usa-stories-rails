@@ -47,7 +47,7 @@
                 top: 0;
                 height: 100%;
                 background-color: rgba(245, 102, 8, 0.79);
-                cursor: url('#{$path-images}helpers/pointer.png'), pointer;
+                cursor: asset-url('helpers/pointer.png'), pointer;
                 .btn {
                   position: absolute;
                   left: 0;

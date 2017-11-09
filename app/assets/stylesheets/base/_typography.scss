@@ -1,135 +1,135 @@
 @font-face {
   font-family: $karla-b;
-  src: url('#{$path-fonts}Karla/Karla-Bold.woff2') format('woff2'),
-  url('#{$path-fonts}Karla/Karla-Bold.woff') format('woff'),
-  url('#{$path-fonts}Karla/Karla-Bold.ttf') format('truetype');
+  src: font-url('Karla/Karla-Bold.woff2') format('woff2'),
+  font-url('Karla/Karla-Bold.woff') format('woff'),
+  font-url('Karla/Karla-Bold.ttf') format('truetype');
 }
 @font-face {
   font-family: $karla-b-i;
-  src: url('#{$path-fonts}Karla/Karla-BoldItalic.woff2') format('woff2'),
-  url('#{$path-fonts}Karla/Karla-BoldItalic.woff') format('woff'),
-  url('#{$path-fonts}Karla/Karla-BoldItalic.ttf') format('truetype');
+  src: font-url('Karla/Karla-BoldItalic.woff2') format('woff2'),
+  font-url('Karla/Karla-BoldItalic.woff') format('woff'),
+  font-url('Karla/Karla-BoldItalic.ttf') format('truetype');
 }
 @font-face {
   font-family: $karla-i;
-  src: url('#{$path-fonts}Karla/Karla-Italic.woff2') format('woff2'),
-  url('#{$path-fonts}Karla/Karla-Italic.woff') format('woff'),
-  url('#{$path-fonts}Karla/Karla-Italic.ttf') format('truetype');
+  src: font-url('Karla/Karla-Italic.woff2') format('woff2'),
+  font-url('Karla/Karla-Italic.woff') format('woff'),
+  font-url('Karla/Karla-Italic.ttf') format('truetype');
 }
 @font-face {
   font-family: $karla-r;
-  src: url('#{$path-fonts}Karla/Karla-Regular.woff2') format('woff2'),
-  url('#{$path-fonts}Karla/Karla-Regular.woff') format('woff'),
-  url('#{$path-fonts}Karla/Karla-Regular.ttf') format('truetype');
+  src: font-url('Karla/Karla-Regular.woff2') format('woff2'),
+  font-url('Karla/Karla-Regular.woff') format('woff'),
+  font-url('Karla/Karla-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: $mont-bl;
-  src: url('#{$path-fonts}Montserrat/Montserrat-Black.woff2') format('woff2'),
-  url('#{$path-fonts}Montserrat/Montserrat-Black.woff') format('woff'),
-  url('#{$path-fonts}Montserrat/Montserrat-Black.ttf') format('truetype');
+  src: font-url('Montserrat/Montserrat-Black.woff2') format('woff2'),
+  font-url('Montserrat/Montserrat-Black.woff') format('woff'),
+  font-url('Montserrat/Montserrat-Black.ttf') format('truetype');
 }
 @font-face {
   font-family: $mont-bl-i;
-  src: url('#{$path-fonts}Montserrat/Montserrat-BlackItalic.woff2') format('woff2'),
-  url('#{$path-fonts}Montserrat/Montserrat-BlackItalic.woff') format('woff'),
-  url('#{$path-fonts}Montserrat/Montserrat-BlackItalic.ttf') format('truetype');
+  src: font-url('Montserrat/Montserrat-BlackItalic.woff2') format('woff2'),
+  font-url('Montserrat/Montserrat-BlackItalic.woff') format('woff'),
+  font-url('Montserrat/Montserrat-BlackItalic.ttf') format('truetype');
 }
 @font-face {
   font-family: $mont-b;
-  src: url('#{$path-fonts}Montserrat/Montserrat-Bold.woff2') format('woff2'),
-  url('#{$path-fonts}Montserrat/Montserrat-Bold.woff') format('woff'),
-  url('#{$path-fonts}Montserrat/Montserrat-Bold.ttf') format('truetype');
+  src: font-url('Montserrat/Montserrat-Bold.woff2') format('woff2'),
+  font-url('Montserrat/Montserrat-Bold.woff') format('woff'),
+  font-url('Montserrat/Montserrat-Bold.ttf') format('truetype');
 }
 @font-face {
   font-family: $mont-b-i;
-  src: url('#{$path-fonts}Montserrat/Montserrat-BoldItalic.woff2') format('woff2'),
-  url('#{$path-fonts}Montserrat/Montserrat-BoldItalic.woff') format('woff'),
-  url('#{$path-fonts}Montserrat/Montserrat-BoldItalic.ttf') format('truetype');
+  src: font-url('Montserrat/Montserrat-BoldItalic.woff2') format('woff2'),
+  font-url('Montserrat/Montserrat-BoldItalic.woff') format('woff'),
+  font-url('Montserrat/Montserrat-BoldItalic.ttf') format('truetype');
 }
 @font-face {
   font-family: $mont-e-b;
-  src: url('#{$path-fonts}Montserrat/Montserrat-ExtraBold.woff2') format('woff2'),
-  url('#{$path-fonts}Montserrat/Montserrat-ExtraBold.woff') format('woff'),
-  url('#{$path-fonts}Montserrat/Montserrat-ExtraBold.ttf') format('truetype');
+  src: font-url('Montserrat/Montserrat-ExtraBold.woff2') format('woff2'),
+  font-url('Montserrat/Montserrat-ExtraBold.woff') format('woff'),
+  font-url('Montserrat/Montserrat-ExtraBold.ttf') format('truetype');
 }
 @font-face {
   font-family: $mont-e-b-i;
-  src: url('#{$path-fonts}Montserrat/Montserrat-ExtraBoldItalic.woff2') format('woff2'),
-  url('#{$path-fonts}Montserrat/Montserrat-ExtraBoldItalic.woff') format('woff'),
-  url('#{$path-fonts}Montserrat/Montserrat-ExtraBoldItalic.ttf') format('truetype');
+  src: font-url('Montserrat/Montserrat-ExtraBoldItalic.woff2') format('woff2'),
+  font-url('Montserrat/Montserrat-ExtraBoldItalic.woff') format('woff'),
+  font-url('Montserrat/Montserrat-ExtraBoldItalic.ttf') format('truetype');
 }
 @font-face {
   font-family: $mont-i;
-  src: url('#{$path-fonts}Montserrat/Montserrat-Italic.woff2') format('woff2'),
-  url('#{$path-fonts}Montserrat/Montserrat-Italic.woff') format('woff'),
-  url('#{$path-fonts}Montserrat/Montserrat-Italic.ttf') format('truetype');
+  src: font-url('Montserrat/Montserrat-Italic.woff2') format('woff2'),
+  font-url('Montserrat/Montserrat-Italic.woff') format('woff'),
+  font-url('Montserrat/Montserrat-Italic.ttf') format('truetype');
 }
 @font-face {
   font-family: $mont-l;
-  src: url('#{$path-fonts}Montserrat/Montserrat-Light.woff2') format('woff2'),
-  url('#{$path-fonts}Montserrat/Montserrat-Light.woff') format('woff'),
-  url('#{$path-fonts}Montserrat/Montserrat-Light.ttf') format('truetype');
+  src: font-url('Montserrat/Montserrat-Light.woff2') format('woff2'),
+  font-url('Montserrat/Montserrat-Light.woff') format('woff'),
+  font-url('Montserrat/Montserrat-Light.ttf') format('truetype');
 }
 @font-face {
   font-family: $mont-l-i;
-  src: url('#{$path-fonts}Montserrat/Montserrat-LightItalic.woff2') format('woff2'),
-  url('#{$path-fonts}Montserrat/Montserrat-LightItalic.woff') format('woff'),
-  url('#{$path-fonts}Montserrat/Montserrat-LightItalic.ttf') format('truetype');
+  src: font-url('Montserrat/Montserrat-LightItalic.woff2') format('woff2'),
+  font-url('Montserrat/Montserrat-LightItalic.woff') format('woff'),
+  font-url('Montserrat/Montserrat-LightItalic.ttf') format('truetype');
 }
 @font-face {
   font-family: $mont-e-l;
-  src: url('#{$path-fonts}Montserrat/Montserrat-ExtraLight.woff2') format('woff2'),
-  url('#{$path-fonts}Montserrat/Montserrat-ExtraLight.woff') format('woff'),
-  url('#{$path-fonts}Montserrat/Montserrat-ExtraLight.ttf') format('truetype');
+  src: font-url('Montserrat/Montserrat-ExtraLight.woff2') format('woff2'),
+  font-url('Montserrat/Montserrat-ExtraLight.woff') format('woff'),
+  font-url('Montserrat/Montserrat-ExtraLight.ttf') format('truetype');
 }
 @font-face {
   font-family: $mont-e-l-i;
-  src: url('#{$path-fonts}Montserrat/Montserrat-ExtraLightItalic.woff2') format('woff2'),
-  url('#{$path-fonts}Montserrat/Montserrat-ExtraLightItalic.woff') format('woff'),
-  url('#{$path-fonts}Montserrat/Montserrat-ExtraLightItalic.ttf') format('truetype');
+  src: font-url('Montserrat/Montserrat-ExtraLightItalic.woff2') format('woff2'),
+  font-url('Montserrat/Montserrat-ExtraLightItalic.woff') format('woff'),
+  font-url('Montserrat/Montserrat-ExtraLightItalic.ttf') format('truetype');
 }
 @font-face {
   font-family: $mont-m;
-  src: url('#{$path-fonts}Montserrat/Montserrat-Medium.woff2') format('woff2'),
-  url('#{$path-fonts}Montserrat/Montserrat-Medium.woff') format('woff'),
-  url('#{$path-fonts}Montserrat/Montserrat-Medium.ttf') format('truetype');
+  src: font-url('Montserrat/Montserrat-Medium.woff2') format('woff2'),
+  font-url('Montserrat/Montserrat-Medium.woff') format('woff'),
+  font-url('Montserrat/Montserrat-Medium.ttf') format('truetype');
 }
 @font-face {
   font-family: $mont-m-i;
-  src: url("#{$path-fonts}Montserrat/Montserrat-MediumItalic.woff2") format('woff2'),
-  url("#{$path-fonts}Montserrat/Montserrat-MediumItalic.woff") format('woff'),
-  url("#{$path-fonts}Montserrat/Montserrat-MediumItalic.ttf") format('truetype');
+  src: font-url("Montserrat/Montserrat-MediumItalic.woff2") format('woff2'),
+  font-url("Montserrat/Montserrat-MediumItalic.woff") format('woff'),
+  font-url("Montserrat/Montserrat-MediumItalic.ttf") format('truetype');
 }
 @font-face {
   font-family: $mont-r;
-  src: url("#{$path-fonts}Montserrat/Montserrat-Regular.woff2") format('woff2'),
-  url("#{$path-fonts}Montserrat/Montserrat-Regular.woff") format('woff'),
-  url("#{$path-fonts}Montserrat/Montserrat-Regular.ttf") format('truetype');
+  src: font-url("Montserrat/Montserrat-Regular.woff2") format('woff2'),
+  font-url("Montserrat/Montserrat-Regular.woff") format('woff'),
+  font-url("Montserrat/Montserrat-Regular.ttf") format('truetype');
 }
 @font-face {
   font-family: $mont-sb;
-  src: url("#{$path-fonts}Montserrat/Montserrat-SemiBold.woff2") format('woff2'),
-  url("#{$path-fonts}Montserrat/Montserrat-SemiBold.woff") format('woff'),
-  url("#{$path-fonts}Montserrat/Montserrat-SemiBold.ttf") format('truetype');
+  src: font-url("Montserrat/Montserrat-SemiBold.woff2") format('woff2'),
+  font-url("Montserrat/Montserrat-SemiBold.woff") format('woff'),
+  font-url("Montserrat/Montserrat-SemiBold.ttf") format('truetype');
 }
 @font-face {
   font-family: $mont-sb-i;
-  src: url("#{$path-fonts}Montserrat/Montserrat-SemiBoldItalic.woff2") format('woff2'),
-  url("#{$path-fonts}Montserrat/Montserrat-SemiBoldItalic.woff") format('woff'),
-  url("#{$path-fonts}Montserrat/Montserrat-SemiBoldItalic.ttf") format('truetype');
+  src: font-url("Montserrat/Montserrat-SemiBoldItalic.woff2") format('woff2'),
+  font-url("Montserrat/Montserrat-SemiBoldItalic.woff") format('woff'),
+  font-url("Montserrat/Montserrat-SemiBoldItalic.ttf") format('truetype');
 }
 @font-face {
   font-family: $mont-th;
-  src: url("#{$path-fonts}Montserrat/Montserrat-Thin.woff2") format('woff2'),
-  url("#{$path-fonts}Montserrat/Montserrat-Thin.woff") format('woff'),
-  url("#{$path-fonts}Montserrat/Montserrat-Thin.ttf") format('truetype');
+  src: font-url("Montserrat/Montserrat-Thin.woff2") format('woff2'),
+  font-url("Montserrat/Montserrat-Thin.woff") format('woff'),
+  font-url("Montserrat/Montserrat-Thin.ttf") format('truetype');
 }
 @font-face {
   font-family: $mont-th-i;
-  src: url("#{$path-fonts}Montserrat/Montserrat-ThinItalic.woff2") format("woff2"),
-  url("#{$path-fonts}Montserrat/Montserrat-ThinItalic.woff") format("woff"),
-  url("#{$path-fonts}Montserrat/Montserrat-ThinItalic.ttf") format("truetype");
+  src: font-url("Montserrat/Montserrat-ThinItalic.woff2") format("woff2"),
+  font-url("Montserrat/Montserrat-ThinItalic.woff") format("woff"),
+  font-url("Montserrat/Montserrat-ThinItalic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 
@@ -137,11 +137,11 @@
 //Icons
 @font-face {
   font-family: $care;
-  src:  url('#{$path-icons}icomoon.eot?i58kgm');
-  src:  url('#{$path-icons}icomoon.eot?i58kgm#iefix') format('embedded-opentype'),
-  url('#{$path-icons}icomoon.ttf?i58kgm') format('truetype'),
-  url('#{$path-icons}icomoon.woff?i58kgm') format('woff'),
-  url('#{$path-icons}icomoon.svg?i58kgm#icomoon') format('svg');
+  src:  font-url('icomoon.eot?i58kgm');
+  src:  font-url('icomoon.eot?i58kgm#iefix') format('embedded-opentype'),
+  font-url('icomoon.ttf?i58kgm') format('truetype'),
+  font-url('icomoon.woff?i58kgm') format('woff'),
+  font-url('icomoon.svg?i58kgm#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }

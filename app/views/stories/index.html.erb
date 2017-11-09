@@ -7,11 +7,12 @@
             name="viewport"
             content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
         >
-        <title>Care</title>
+        <title>CARE USA Human Interest Stories</title>
+        <%= csrf_meta_tags %>
         <!--slick sliderstyles-->
-        <link rel="stylesheet" href="./assets/slick-carousel/slick/slick.css">
+        <%= stylesheet_link_tag 'slick-carousel/slick/slick' %>
         <!--main css of the Simple Template-->
-        <link rel="stylesheet" href="./assets/css/style.css">
+        <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     </head>
     <body>
         <!--header-->
@@ -21,7 +22,7 @@
                     <a href="" class="logo">
                         <span class="hidden" >Care</span>
                         <img alt="Care"
-                             src="./src/images/care-logo.png"
+                             src="assets/care-logo.png"
                              title="Care-logo" >
                     </a>
                 </div>
@@ -60,10 +61,10 @@
                     <div class="slide-item">
                         <figure class="slide">
                             <picture>
-                                <source media="(max-width: 425px)" srcset="./src/images/banner-m.png">
+                                <source media="(max-width: 425px)" srcset="assets/banner-m.png">
                                 <img
                                      class="slide-banner"
-                                     src="./src/images/banner-image.png"
+                                     src="assets/banner-image.png"
                                      alt="Reaping the Benefits of training">
                             </picture>
                             <figcaption class="slide-content">
@@ -73,7 +74,7 @@
                                <div>
                                     <a href="">
                                         <img class="rounded-img"
-                                            src="./src/images/author.png"
+                                            src="assets/author.png"
                                             alt="By Anguparu Monica" >
                                     </a>
                                     <p class="author-data">
@@ -87,10 +88,10 @@
                     <div class="slide-item">
                         <figure class="slide">
                             <picture>
-                                <source media="(max-width: 425px)" srcset="./src/images/banner-m.png">
+                                <source media="(max-width: 425px)" srcset="assets/banner-m.png">
                                 <img
                                      class="slide-banner"
-                                     src="./src/images/banner-image.png"
+                                     src="assets/banner-image.png"
                                      alt="Reaping the Benefits of training">
                             </picture>
                             <figcaption class="slide-content">
@@ -100,7 +101,7 @@
                                 <div>
                                     <a href="">
                                         <img class="rounded-img"
-                                             src="./src/images/author.png"
+                                             src="assets/author.png"
                                              alt="By Anguparu Monica" >
                                     </a>
                                     <p class="author-data">
@@ -114,10 +115,10 @@
                     <div class="slide-item">
                         <figure class="slide">
                             <picture>
-                                <source media="(max-width: 425px)" srcset="./src/images/banner-m.png">
+                                <source media="(max-width: 425px)" srcset="assets/banner-m.png">
                                 <img
                                      class="slide-banner"
-                                     src="./src/images/banner-image.png"
+                                     src="assets/banner-image.png"
                                      alt="Reaping the Benefits of training">
                             </picture>
                             <figcaption class="slide-content">
@@ -127,7 +128,7 @@
                                 <div>
                                     <a href="">
                                         <img class="rounded-img"
-                                             src="./src/images/author.png"
+                                             src="assets/author.png"
                                              alt="By Anguparu Monica" >
                                     </a>
                                     <p class="author-data">
@@ -466,7 +467,7 @@
                             <a class="holder" href="#">
                                 <figure class="article-content">
                                     <div class="article-layer">
-                                        <img src="./src/images/article/img1.png"
+                                        <img src="assets/article/img1.png"
                                              alt="Rehena and Her Solar Lamp.">
                                         <p><button class="btn" type="button">GO TO STORY</button></p>
                                     </div>
@@ -487,7 +488,7 @@
                             <a class="holder" href="#">
                                 <figure class="article-content">
                                     <div class="article-layer">
-                                        <img src="./src/images/article/img2.png"
+                                        <img src="assets/article/img2.png"
                                              alt="Reaping the benefits of training.">
                                         <p><button class="btn" type="button">GO TO STORY</button></p>
                                     </div>
@@ -509,7 +510,7 @@
                             <a class="holder" href="#">
                                 <figure class="article-content">
                                     <div class="article-layer">
-                                        <img src="./src/images/article/img3.png"
+                                        <img src="assets/article/img3.png"
                                              alt="Rebuilding Respect One Tree a Time.">
                                         <p><button class="btn" type="button">GO TO STORY</button></p>
                                     </div>
@@ -530,7 +531,7 @@
                             <a class="holder" href="#">
                                 <figure class="article-content">
                                     <div class="article-layer">
-                                        <img src="./src/images/article/img5.png"
+                                        <img src="assets/article/img5.png"
                                              alt="The Promise to shield the birth right">
                                         <p><button class="btn" type="button">GO TO STORY</button></p>
                                     </div>
@@ -552,7 +553,7 @@
                             <a class="holder" href="#">
                                 <figure class="article-content">
                                     <div class="article-layer">
-                                        <img src="./src/images/article/img6.png"
+                                        <img src="assets/article/img6.png"
                                              alt="Yes, School Reintegration is possible when you get money.">
                                         <p><button class="btn" type="button">GO TO STORY</button></p>
                                     </div>
@@ -574,7 +575,7 @@
                             <a class="holder" href="#">
                                 <figure class="article-content">
                                     <div class="article-layer">
-                                        <img src="./src/images/article/img4.png"
+                                        <img src="assets/article/img4.png"
                                              alt="Haiyan Survivor Takes Lead in Community Transformation">
                                         <p><button class="btn" type="button">GO TO STORY</button></p>
                                     </div>
@@ -652,7 +653,7 @@
                         <a href="">
                             <img
                                     class="recent-slide"
-                                    src="./src/images/recent-stories/img1.png"
+                                    src="assets/recent-stories/img1.png"
                                     alt="Recent story">
                         </a>
 
@@ -661,7 +662,7 @@
                         <a href="">
                             <img
                                     class="recent-slide"
-                                    src="./src/images/recent-stories/img2.png"
+                                    src="assets/recent-stories/img2.png"
                                     alt="Recent story">
                         </a>
 
@@ -670,7 +671,7 @@
                         <a href="">
                             <img
                                     class="recent-slide"
-                                    src="./src/images/recent-stories/img3.png"
+                                    src="assets/recent-stories/img3.png"
                                     alt="Recent story">
                         </a>
 
@@ -679,7 +680,7 @@
                         <a href="">
                             <img
                                     class="recent-slide"
-                                    src="./src/images/recent-stories/img4.png"
+                                    src="assets/recent-stories/img4.png"
                                     alt="Recent story">
                         </a>
 
@@ -688,7 +689,7 @@
                         <a href="">
                             <img
                                     class="recent-slide"
-                                    src="./src/images/recent-stories/img5.png"
+                                    src="assets/recent-stories/img5.png"
                                     alt="Recent story">
                         </a>
 
@@ -697,7 +698,7 @@
                         <a href="">
                             <img
                                     class="recent-slide"
-                                    src="./src/images/recent-stories/img6.png"
+                                    src="assets/recent-stories/img6.png"
                                     alt="Recent story">
                         </a>
 
@@ -706,7 +707,7 @@
                         <a href="">
                             <img
                                     class="recent-slide"
-                                    src="./src/images/recent-stories/img1.png"
+                                    src="assets/recent-stories/img1.png"
                                     alt="Recent story">
                         </a>
 
@@ -715,7 +716,7 @@
                         <a href="">
                             <img
                                     class="recent-slide"
-                                    src="./src/images/recent-stories/img2.png"
+                                    src="assets/recent-stories/img2.png"
                                     alt="Recent story">
                         </a>
 
@@ -724,7 +725,7 @@
                         <a href="">
                             <img
                                     class="recent-slide"
-                                    src="./src/images/recent-stories/img3.png"
+                                    src="assets/recent-stories/img3.png"
                                     alt="Recent story">
                         </a>
 
@@ -733,7 +734,7 @@
                         <a href="">
                             <img
                                     class="recent-slide"
-                                    src="./src/images/recent-stories/img4.png"
+                                    src="assets/recent-stories/img4.png"
                                     alt="Recent story">
                         </a>
 
@@ -742,7 +743,7 @@
                         <a href="">
                             <img
                                     class="recent-slide"
-                                    src="./src/images/recent-stories/img5.png"
+                                    src="assets/recent-stories/img5.png"
                                     alt="Recent story">
                         </a>
 
@@ -751,7 +752,7 @@
                         <a href="">
                             <img
                                     class="recent-slide"
-                                    src="./src/images/recent-stories/img6.png"
+                                    src="assets/recent-stories/img6.png"
                                     alt="Recent story">
                         </a>
 
@@ -796,13 +797,7 @@
             </div>
         </footer>
         <!--end contact us-->
-        <!--set jquery-->
-        <script src="./assets/jquery/dist/jquery.min.js"></script>
-        <!--set masonry grid-->
-        <script src="./assets/masonry/masonry.pkgd.js"></script>
-        <!--set slick carousel-->
-        <script src="./assets/slick-carousel/slick/slick.min.js"></script>
-        <!--main.js-->
-        <script src="./assets/js/bundle.js"></script>
+        <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+        <%= javascript_pack_tag 'application' %>
     </body>
 </html>
